@@ -1,0 +1,19 @@
+animate.css
+bootstrap: 栅格系统 (响应式布局)
+全局样式(作为类名方式使用)
+组件(响应式导航)
+插件(轮播图,手风琴)
+
+网页的淘宝： www.taobao.com
+移动端: https://m.taobao.com  mobile
+
+栅格系统: 将父级盒子平分为12等份(列),由你自己去设置你要的盒子占据的等份数量
+
+.container>.row>.col
+
+大屏幕: >= 1200px  .lg   .col-lg
+中等屏幕: >=992px  .md   .col-md
+小屏幕:  >=768px   .sm   .col-sm
+超小屏幕: <768px   .xs   .col-xs
+
+如果一行里面,不足以显示所有的列,则会另起一起一行显示
